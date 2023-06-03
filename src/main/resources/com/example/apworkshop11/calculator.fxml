@@ -34,9 +34,9 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#number3ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="3" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number4ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="4" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number1ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="1">
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="3" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="4" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="1">
                <textFill>
                   <LinearGradient endX="1.0" endY="1.0">
                      <stops>
@@ -53,18 +53,18 @@
                      </stops>
                   </LinearGradient>
                </textFill></Button>
-            <Button mnemonicParsing="false" onAction="#number6ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number8ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number5ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number2ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="2" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number7ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="7" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number9ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number0ButtonPressed" prefHeight="40.0" prefWidth="50.0" text="0" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#pointButtonPressed" prefHeight="40.0" prefWidth="50.0" text="." GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="2" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="7" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="40.0" prefWidth="50.0" text="0" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#operatorButtonPressed" prefHeight="40.0" prefWidth="50.0" text="." GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Button mnemonicParsing="false" onAction="#equalButtonPressed" prefHeight="40.0" prefWidth="50.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3" />
          </children>
       </GridPane>
-      <Button mnemonicParsing="false" onAction="#acButtonPressed" prefHeight="40.0" prefWidth="50.0" text="AC" GridPane.columnIndex="1" />
+      <Button mnemonicParsing="false" onAction="#clearButtonPressed" prefHeight="40.0" prefWidth="50.0" text="AC" GridPane.columnIndex="1" />
       <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -76,10 +76,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#divideButtonPressed" prefHeight="40.0" prefWidth="50.0" text="/" />
-            <Button mnemonicParsing="false" onAction="#multiplyButtonPressed" prefHeight="40.0" prefWidth="50.0" text="x" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#addButtonPressed" prefHeight="40.0" prefWidth="50.0" text="+" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#subButtonPressed" prefHeight="40.0" prefWidth="50.0" text="-" GridPane.rowIndex="2">
+            <Button mnemonicParsing="false" onAction="#operatorButtonPressed" prefHeight="40.0" prefWidth="50.0" text="/" />
+            <Button mnemonicParsing="false" onAction="#operatorButtonPressed" prefHeight="40.0" prefWidth="50.0" text="x" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#operatorButtonPressed" prefHeight="40.0" prefWidth="50.0" text="+" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#operatorButtonPressed" prefHeight="40.0" prefWidth="50.0" text="-" GridPane.rowIndex="2">
                <font>
                   <Font size="16.0" />
                </font>
